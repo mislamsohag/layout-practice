@@ -1,0 +1,396 @@
+
+/* common CSS Start */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;400;600;700&family=Secular+One&family=Tiro+Devanagari+Marathi&display=swap');
+
+*{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+a{
+    text-decoration:none;
+    color:#1D1D1D;
+}
+body{
+    font-family:Inter, sans-serif;
+    line-height: 32px;
+    letter-spacing: -1px;
+    font-size: 18px;
+}
+.container{
+    max-width:1200px;
+    margin: 0 auto;
+}
+/* common CSS end */
+
+/* Header Section Start */
+.header{
+    margin: 28px;
+}
+.manu{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+.logo{
+    font-family:secular one;
+}
+.mainManu ul{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.mainManu ul a{
+    display:inline-block;
+    padding: 10px 27px;
+    color:#1D1D1D;
+}
+.mainManu ul .loginBtn a{
+    color:#094BCA;
+}
+.mainManu ul .getStartedBtn{
+    border-radius:5px;
+    background-color: #4E88F7;    
+}
+.mainManu ul .getStartedBtn a{
+    color:#fff;
+}
+/* Header Section End */ 
+
+/* Hero Section CSS Start */
+.heroSection{
+    display: flex;
+    align-items:center;
+}  
+.heroSection p{
+    text-align: justify;
+}
+.heroContent, .heroImg{
+    width:50%
+}
+.heroImg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.heroImg img{
+    max-width: 100%;
+    height:auto;
+}
+.heroContent h1{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 50px;    
+}
+.heroContent p {
+    color: #223140;        
+    padding-top: 35px;
+    padding-bottom: 45px;
+}
+.btn{
+    border-radius:5px;    
+    color: #094BCA;
+    padding:10px 27px;
+    border: 1px solid #E0E0E0;
+    display: inline-block;
+}
+.heroBtn1, .functionBtn1{    
+    background-color: #4E88F7;
+    color: #fff;    
+    margin-right: 5px;
+}
+/* Hero Section CSS End */
+
+/* Card Section CSS Start */
+.cardSection{
+    display: flex;
+    justify-content: space-between;
+    margin:87px 0 90px;
+}
+.card{
+    padding:15px;
+    width: 200px;
+    height: 100px;
+    /* flex-shrink: 0; */
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.card h3 {
+    color: #223140;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.card p{
+    margin:8px 0;
+    color: #535558;
+    font-size: 14px;
+    font-family: ITF Devanagari     Marathi;
+    line-height: 16px;
+}
+.card .logoCircle {
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+    width:36px;
+    height: 36px;
+    border-radius: 36px;
+    background: rgba(236, 178, 45, 0.10);
+}
+.card i{
+    color:#ECB22D
+}
+/* Card Section CSS End */
+
+/* Stream Line Section CSS Start */
+.streamlineSection{
+    margin: 0 auto;
+    max-width: 771px;
+    margin-bottom: 90px;
+}
+.streamlineSection h3{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1D1D1D;
+    font-size: 32px;
+    font-weight: 700;    
+}
+.streamlineSection p{
+    color: #223140;
+    text-align: center;
+    font-size: 18px;
+}
+/* Stream Line Section CSS End */
+
+/* Functional Section CSS Start */
+.functional{
+    display: flex;    
+    align-items: center;
+    margin-bottom: 60px;
+}
+.functionalContent1, .functionalContent3 {
+    width: 50%;
+    margin-right: 54.5px;
+}
+.functionalImg1, .functionalImg3{
+    width: 50%;
+    margin-left: 54.5;
+}
+.functionalContent2 {
+    width: 50%;
+    margin-left: 54.5px;
+}
+.functionalImg2{
+    width: 50%;
+    margin-right: 54.5;
+}
+.functionalImg{    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.functional h5{
+    color: #094BCA;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+.functional h3{
+    color: #1D1D1D;
+    font-size: 32px;    
+}
+.functional p{
+    color: #223140;
+    font-size: 18px;
+    margin: 35px 0;
+}
+/* Functional Section CSS Start */
+
+.soft{
+    margin-top: 116px;
+    margin-bottom: 90px;    
+}
+
+/* Customer Section Start */
+.customerCards{
+    display: flex;
+    justify-content: space-between;
+}
+.customerCard{
+    position: relative;
+    border-radius: 10px;
+    max-width: 300px;
+    text-align: center;
+    padding: 10px;
+    margin-bottom: 90px;
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.customerCard img{
+    position: absolute;    
+    top: -3%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.customerCard p{
+    padding-top: 50px;
+    color: #535558;
+    text-align: center;
+    font-size: 14px;
+    font-family: ITF Devanagari Marathi;
+    line-height: 22px;
+}
+.customerCard h3{
+    margin: 30px;
+    color: #D9D9D9;
+    font-size: 24px;
+    font-family: Secular One;
+    letter-spacing: -0.293px;
+}
+.customerCard h5{
+    color: #223140;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+/* Customer Section Start */
+
+/* Statics Section CSS Start */
+.statics{
+    display: flex;
+    justify-content: space-evenly;
+}
+.staticsContent h3{
+    color: #094BCA;
+    text-align: center;
+    font-size: 32px;
+}
+.staticsContent p{
+    color: #223140;
+    text-align: center;
+    font-size: 18px;
+}
+/* Statics Section CSS End */
+
+/* Experieanc Section CSS Start */
+.experience{    
+    margin: 90px 0;
+    padding: 60px 0;
+    background: rgba(217, 217, 217, 0.10);
+}
+.experienceContent{
+    margin: 0 auto;
+    width: 771px;
+    text-align: center;
+}
+.experienceContent h3{
+    color: #000;
+    font-size: 32px;
+}
+.experienceContent p{
+    margin: 35px 0 60px;
+}
+/* Experieanc Section CSS End */
+
+/* Resource Section CSS Start */
+.resource h3{
+    color: #1D1D1D;
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 90px;
+}
+.resourceCards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+    margin-bottom: 60px;   
+}
+.resourceCard{
+    border-radius: 20px;
+    max-width: 380px;
+    box-shadow: 1px 2px 15px 0px rgba(0, 0, 0, 0.15);
+}
+.resourceCard img{
+    border-radius: 20px 20px 0px 0px;
+}
+.cardContent{
+    padding: 20px;
+}
+.cardContent p{
+    color: #223140;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.rBtn{
+    display: inline-block;
+    border-radius: 2px;
+    background: rgba(19, 97, 245, 0.10);
+    padding: 3px 8px;
+    color: #004CE6;
+    text-align: center;
+    font-size: 12px;
+}
+.readMoreBtn{
+    color:#004CE6
+}
+/* Resource Section CSS End */
+
+/* Footer Section CSS Start */
+footer{
+    padding: 60px 0;
+    background: rgba(217, 217, 217, 0.10);
+}
+.footerContent{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+.footerAddress h3{
+    color: #1D1D1D;
+    font-size: 24px;
+    font-family: Secular One;
+}
+.footerAddress p{
+    color: #535558;
+    font-size: 16px;
+    max-width: 198px;
+    line-height: 26px;
+    margin: 30px 0;
+}
+.footerAddress a{
+    display: inline-block;
+    color:#094BCA;
+    margin-right: 36px;
+}
+.footerAbout{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.about, .company{
+    display: flex;
+    flex-direction: column;
+}
+.about h5, .company h5, .footerBlog h5{
+    margin-bottom: 30px;
+    color: #1D1D1D;
+    font-size: 18px;
+} 
+.about a, .company a{
+    color: #535558;
+    font-size: 16px;    
+}
+.footerBlogContent{
+    display: flex;
+}
+.blogImg img{
+    width: 90px;
+    margin-right: 10px;
+    border-radius: 10px 0 0 10px;
+}
+.blogContent p{
+    color: #535558;
+    font-size: 14px;
+    line-height: 22px;
+}
+.blogContent a{
+    padding: 10px 0;
+    display: inline-block;
+    color:#094BCA;
+}
+/* Footer Section CSS End */
